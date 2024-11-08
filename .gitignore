@@ -1,4 +1,4 @@
-# Ignore compiled bytecode
+b# Ignore compiled bytecode
 *.elc
 
 # Ignore cache and backup files
