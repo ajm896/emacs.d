@@ -1,0 +1,49 @@
+# Ignore compiled bytecode
+*.elc
+
+# Ignore cache and backup files
+*~
+\#*\#
+auto-save-list/
+
+# Ignore package and build files
+elpa/
+straight/
+eshell/
+projectile-bookmarks.eld
+tramp
+transient/
+saveplace
+savehist
+url/
+bookmark
+recentf
+ido.last
+auto-save-list/
+custom.el
+
+# Ignore personal info and history
+session.*
+places
+
+# Ignore server files
+server/
+
+# Ignore specific Emacs setup files
+.emacs.desktop
+.emacs.desktop.lock
+
+# If you use lsp-mode or eglot, ignore language server folders
+.lsp-session-v1
+eglot/
+
+# For org-mode attachments (optional)
+org-attachments/
+
+# Ignore external packages if you're using use-package with straight.el
+straight/build/
+straight/repos/
+
+# Ignore vterm and shell history
+vterm/
+shell-history
