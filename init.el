@@ -28,13 +28,14 @@
 
 (global-set-key [remap dabbrev-expand] 'hippie-expand)
 
-(load (expand-file-name "~/quicklisp/slime-helper.el"))
+;(load (expand-file-name "~/quicklisp/slime-helper.el"))
 
 ;; Replace "sbcl" with the path to your implementation
 (setq inferior-lisp-program "/opt/homebrew/bin/sbcl")
 
-(load (expand-file-name "ui-config.el" user-emacs-directory))
+
 (load (expand-file-name "packages-config.el" user-emacs-directory))
+(load (expand-file-name "ui-config.el" user-emacs-directory))
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file 'noerror)
