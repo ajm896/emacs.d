@@ -12,8 +12,6 @@
 	     :diminish which-key-mode
 	     :config (setq which-key-idle-delay 0.3))
 
-(use-package magit
-  :ensure)
 
 (use-package surround
   :ensure t
@@ -49,6 +47,7 @@
 
 (use-package go-mode
   :ensure)
+
 (use-package vterm :ensure)
 
 (use-package eglot

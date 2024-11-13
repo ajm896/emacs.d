@@ -19,16 +19,10 @@
 (recentf-mode t)
 (global-auto-revert-mode t)
 
-
 (fido-vertical-mode 1)
-
-
 
 (column-number-mode)
 (global-display-line-numbers-mode t)
-
-
-
 
 (setq mac-command-modifier 'meta)
 
@@ -39,12 +33,8 @@
 ;; Replace "sbcl" with the path to your implementation
 (setq inferior-lisp-program "/opt/homebrew/bin/sbcl")
 
-
-
-
 (load (expand-file-name "ui-config.el" user-emacs-directory))
 (load (expand-file-name "packages-config.el" user-emacs-directory))
-
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file 'noerror)
