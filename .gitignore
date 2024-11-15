@@ -1,9 +1,10 @@
-b# Ignore compiled bytecode
+# Ignore compiled bytecode
 *.elc
 
 # Ignore cache and backup files
 *~
 \#*\#
+history
 auto-save-list/
 
 # Ignore package and build files

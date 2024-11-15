@@ -44,11 +44,12 @@
   ;; :after (autoload 'enable-paredit-mode "paredit" "Turn on
   ;; pseudo-structural editing of Lisp code." t)
   )
-
+(use-package nix-mode
+  :ensure)
 (use-package go-mode
   :ensure)
 
-(use-package vterm :ensure)
+;;(use-package vterm :ensure)
 
 (use-package eglot
   :ensure t
