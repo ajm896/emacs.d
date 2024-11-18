@@ -5,7 +5,7 @@
 	     ;; Load the theme of your choice:
 	     (load-theme 'solarized-light t))
 
-(set-frame-font "JetBrainsMono Nerd Font Mono-20" nil t)
+(set-frame-font "JetBrainsMono Nerd Font Mono-12" nil t)
 
 (defun set-theme-based-on-time ()
   "Set light or dark theme based on the current time."
@@ -25,3 +25,4 @@
 (schedule-theme-toggle)
 (add-to-list 'default-frame-alist '(width . 161))  ;; Set width to 100 columns
 (add-to-list 'default-frame-alist '(height . 63))  ;; Set height to 50 rows
+(add-to-list 'default-frame-alist '(font . "JetBrainsMono Nerd Font Mono-12"))
